@@ -13,6 +13,8 @@
 		407C21341B25226800A6CEBA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 407C21331B25226800A6CEBA /* Images.xcassets */; };
 		407C21371B25226800A6CEBA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 407C21351B25226800A6CEBA /* LaunchScreen.xib */; };
 		407C21431B25226800A6CEBA /* QQTransitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407C21421B25226800A6CEBA /* QQTransitionTests.swift */; };
+		407C214D1B25228300A6CEBA /* ZQLTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407C214C1B25228300A6CEBA /* ZQLTransition.swift */; };
+		407C214F1B25285B00A6CEBA /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407C214E1B25285B00A6CEBA /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		407C213C1B25226800A6CEBA /* QQTransitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QQTransitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		407C21411B25226800A6CEBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		407C21421B25226800A6CEBA /* QQTransitionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QQTransitionTests.swift; sourceTree = "<group>"; };
+		407C214C1B25228300A6CEBA /* ZQLTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZQLTransition.swift; sourceTree = "<group>"; };
+		407C214E1B25285B00A6CEBA /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 			children = (
 				407C212C1B25226700A6CEBA /* AppDelegate.swift */,
 				407C212E1B25226700A6CEBA /* ViewController.swift */,
+				407C214E1B25285B00A6CEBA /* SecondViewController.swift */,
+				407C214C1B25228300A6CEBA /* ZQLTransition.swift */,
 				407C21301B25226800A6CEBA /* Main.storyboard */,
 				407C21331B25226800A6CEBA /* Images.xcassets */,
 				407C21351B25226800A6CEBA /* LaunchScreen.xib */,
@@ -212,6 +218,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				407C214F1B25285B00A6CEBA /* SecondViewController.swift in Sources */,
+				407C214D1B25228300A6CEBA /* ZQLTransition.swift in Sources */,
 				407C212F1B25226700A6CEBA /* ViewController.swift in Sources */,
 				407C212D1B25226700A6CEBA /* AppDelegate.swift in Sources */,
 			);
